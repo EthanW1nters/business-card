@@ -1,0 +1,35 @@
+body{
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #e60012;
+}
+
+img{
+    width: 250px;
+    border-radius: 12px;
+}
+a {
+    color: #EFB58D;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    max-width: 800px; margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 16px;
+}
+.gallery{
+    display: flex; gap: 20px;
+}
+@media(max-width: 600px){
+    .gallery{
+        flex-direction: column;
+    }
+}
